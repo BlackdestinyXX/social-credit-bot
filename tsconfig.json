@@ -1,0 +1,13 @@
+{
+  "include": ["./*"],
+  "exclude": ["./node_modules/*"],
+  "compilerOptions": {
+    "target": "esnext",                         
+    "module": "commonjs",
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./",
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
